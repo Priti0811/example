@@ -49,7 +49,7 @@ namespace example.Admin {
         protected global::System.Web.UI.WebControls.Button Button1;
         
         /// <summary>
-        /// Label1 control.
+        /// lblAlert control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.

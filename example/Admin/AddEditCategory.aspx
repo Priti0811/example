@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" AutoEventWireup="true" CodeFile="AddEditCategory.aspx.cs" Inherits="example.Admin.AddEditCategory" %>
+﻿<%@ Page Title="" Language="C#" AutoEventWireup="true" CodeBehind="AddEditCategory.aspx.cs" Inherits="example.Admin.AddEditCategory" %>
 <!DOCTYPE html>
  <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server"> 

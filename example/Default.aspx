@@ -157,7 +157,7 @@
                        <div>
 
 
-                                                                      <table style="width: 172px;">
+                                                                          <table style="width: 172px;">
                                                                           <tr>
                                                                               <td>
                                                                                 
@@ -217,7 +217,7 @@
            <asp:Panel ID="pnlCategories" runat="server" Height="600px" ScrollBars="Auto" style="margin-left: 29px">
                                       <asp:DataList ID="dlCategories" runat="server" Width="252px">
                                           <ItemTemplate>
-                                              <asp:LinkButton ID="lbtnCategory" runat="server" text='<%# Eval("CategoryName") %>' OnClick="lbtnCategory_Click" CommangArgument='<%# Eval("CategoryID") %>'></asp:LinkButton>
+                                              <asp:LinkButton ID="lbtnCategory" runat="server" Text='<%# Eval("CategoryName") %>' OnClick="lbtnCategory_Click" CommangArgument='<%# Eval("CategoryID") %>'></asp:LinkButton>
                                           </ItemTemplate>
                                       </asp:DataList>
                                   </asp:Panel>
@@ -233,7 +233,7 @@
                                           <tr>
                                               <td>
                                                   <asp:TextBox ID="txtTotalProducts" runat="server" ReadOnly="true" Width="231px"></asp:TextBox>
-                                                  <asp:RegularExpressionValidator ID="RequiredFieldValidators" runat="server" ControlToValidate="txtTotalProducts" ErrorMessage="*"></asp:RegularExpressionValidator>
+                                                  
                                               </td>
                                           </tr>
                                           <tr>
@@ -242,7 +242,7 @@
                                           <tr>
                                               <td>
                                                   <asp:TextBox ID="txtTotalPrice" runat="server" ReadOnly="true" Width="231px"></asp:TextBox>
-                                                  <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="txtTotalProducts" ErrorMessage="*"></asp:RegularExpressionValidator>
+                                                  
                                               </td>
                                           </tr>
                                           <tr>

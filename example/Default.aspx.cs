@@ -38,11 +38,11 @@ namespace example
         private void GetProducts(int CategoryID)
         {
             ShoppingCart k = new ShoppingCart();
-            {
+          {
 
                 CategoryID = CategoryID;
 
-            };
+          }
 
             dlProducts.DataSource = null;
             dlProducts.DataSource = k.GetAllProduct();
@@ -55,8 +55,9 @@ namespace example
         {
             pnlMyCart.Visible = false;
             pnlProducts.Visible = true;
-           int CategoryID = Convert.ToInt16((((LinkButton)sender).CommandArgument));
+            int CategoryID = Convert.ToInt16((((LinkButton)sender).CommandArgument));
             GetProducts(CategoryID);
+
             HighlightCartProducts();
         }
 
@@ -165,9 +166,14 @@ namespace example
         protected void btnShoppingCart_Click(object sender, EventArgs e)
         {
             GetMyCart();
+
             lblCategoryName.Text = "Products in Shopping Cart";
             lblProducts.Text = "SaveCustomerProducts";
-          //  dlCartProducts.Visible = true;
+          //  pnlMyCart.Visible = true;
+          //  pnlCheckout.Visible = true;
+           // pnlCategories.Visible = false;
+            //pnlProducts.Visible = false;
+          
         }
 
 
@@ -280,7 +286,6 @@ namespace example
                 pnlCategories.Visible = false;
                 pnlProducts.Visible = false;
 
-              //  dlCartProducts.Visible = true;
                 dlCartProducts.DataSource = null;
                 dlCartProducts.DataBind();
                 txtTotalProducts.Text = "0";

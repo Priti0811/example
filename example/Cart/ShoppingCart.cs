@@ -60,15 +60,15 @@ namespace example.Cart
             return dt;
         }
 
-        internal void SaveCustomerProducts()
-        {
-            SqlParameter[] parameters = new SqlParameter[4];
+    //    internal void SaveCustomerProducts()
+    //    {
+     //       SqlParameter[] parameters = new SqlParameter[4];
            // parameters[0] = DataLayer.DataAccess.AddParamater("@ID", ID, System.Data.SqlDbType.Int, 100);
-            parameters[1] = DataLayer.DataAccess.AddParamater("@ProductID", ProductID, System.Data.SqlDbType.Int, 100);
-            parameters[2] = DataLayer.DataAccess.AddParamater("@TotalProducts", TotalProducts, System.Data.SqlDbType.Int, 100);
+    //        parameters[1] = DataLayer.DataAccess.AddParamater("@ProductID", ProductID, System.Data.SqlDbType.Int, 100);
+      //      parameters[2] = DataLayer.DataAccess.AddParamater("@TotalProducts", TotalProducts, System.Data.SqlDbType.Int, 100);
             //  parameters[3] = DataLayer.DataAccess.AddParamater("TotalPrice", TotalPrice, System.Data.SqlDbType.Int, 100);
-            DataTable dt = DataLayer.DataAccess.ExecuteDTByProcedure("SP_Customer", parameters);
-        }
+     //       DataTable dt = DataLayer.DataAccess.ExecuteDTByProcedure("SP_Customer", parameters);
+    //    }
 
     }
 }

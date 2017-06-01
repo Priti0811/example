@@ -7,18 +7,31 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-
-
-namespace example.Admin
-{
+namespace example.Admin {
     
     
-    public partial class AddNewProducts
-    {
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
-
+    public partial class AddNewProducts {
+        
         /// <summary>
-       /// DropDownList1 control;
+        /// form1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        
+        /// <summary>
+        /// TextBox1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        
+        /// <summary>
+        /// ddlCategory control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
@@ -27,7 +40,7 @@ namespace example.Admin
         protected global::System.Web.UI.WebControls.DropDownList ddlCategory;
         
         /// <summary>
-      /// ImageButton1 control.
+        /// uploadProductPhoto control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
@@ -61,9 +74,5 @@ namespace example.Admin
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button1;
-
-       
-
-        
     }
 }

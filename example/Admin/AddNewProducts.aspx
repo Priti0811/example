@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" AutoEventWireup="true" CodeFile="AddNewProducts.aspx.cs" Inherits="example.Admin.AddNewProducts" %>
+﻿<%@ Page Title="" Language="C#" AutoEventWireup="true" CodeBehind="AddNewProducts.aspx.cs" Inherits="example.Admin.AddNewProducts" %>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
